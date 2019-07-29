@@ -1,12 +1,39 @@
 $yellow: #fed32c
+$border-radius: 20px
+$box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 .wrapper
   $line-height: 20px
   background: white
-  margin: 0 16px
-  border-radius: 10px
-  overflow: hidden
+  margin: 0 16px 16px
+  border-radius: $border-radius
   color: #333
   padding: 0 8px
+  position: relative
+  box-shadow: $box-shadow
+  &::before
+    content: ''
+    position: absolute
+    width: 95%
+    height: 100%
+    background: rgba(white, 0.7)
+    left: 50%
+    transform: translateX(-50%)
+    bottom: -8px
+    z-index: -1
+    border-radius: $border-radius
+    box-shadow: $box-shadow
+  &::after
+    content: ''
+    position: absolute
+    width: 90%
+    height: 100%
+    background: rgba(white, 0.4)
+    left: 50%
+    transform: translateX(-50%)
+    bottom: -16px
+    z-index: -2
+    border-radius: $border-radius
+    box-shadow: $box-shadow
   .header
     text-align: center
     padding: 16px 0 8px
@@ -51,7 +78,7 @@ $yellow: #fed32c
       padding: .5em 0
   .days
     > .cell
-      min-height: $line-height * 3
+      min-height: $line-height * 2
   .footer
     display: flex
     justify-content: space-between

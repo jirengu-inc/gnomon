@@ -179,14 +179,16 @@ export default class Date2 {
 
   isLaterMonthThan(date: Date | Date2) {
     const date2 = Date2.makeDate2(date);
-    return this.year() === date2.year() && this.month() > date2.month()
-      || this.year() > date2.year();
+    return this.year() === date2.year()
+      ? this.month() > date2.month()
+      : this.year() > date2.year();
   }
 
   isFormerMonthThan(date: Date | Date2) {
     const date2 = Date2.makeDate2(date);
-    return this.year() === date2.year() && this.month() < date2.month()
-      || this.year() < date2.year();
+    return this.year() === date2.year()
+      ? this.month() < date2.month()
+      : this.year() < date2.year();
   }
 
   isSameDayAs(date: Date | Date2) {

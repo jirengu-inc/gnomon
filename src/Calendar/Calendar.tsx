@@ -2,7 +2,7 @@ import * as React from 'react';
 import {useState} from 'react';
 import Date2 from '../lib/Date2';
 import {range} from 'ramda';
-import styles from './calendar.module.sass';
+import styles from './Calendar.module.sass';
 import cs from 'classnames';
 
 type CalendarEventTime = string | Date;
@@ -28,8 +28,6 @@ interface Props {
 const weekdayNames = ['日', '一', '二', '三', '四', '五', '六'];
 
 const Calendar: React.FC<Props> = ({firstDayOfWeek = 1, events, value, onChange}) => {
-  console.log('events');
-  console.log(events);
   const [currentTime, setCurrentTime] = useState(new Date2(value));
   const firstDayOfCurrentMonth = currentTime.day(1);
   const weekday = firstDayOfCurrentMonth.weekday();

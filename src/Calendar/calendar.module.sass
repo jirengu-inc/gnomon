@@ -1,0 +1,41 @@
+.wrapper
+  $line-height: 20px
+  background: white
+  margin: 0 16px 16px
+  border-radius: 10px
+  overflow: hidden
+  color: #333
+  padding: 0 8px
+  .header
+    text-align: center
+    padding: 16px 0 8px
+  .weekdays, .days
+    display: flex
+    flex-wrap: wrap
+    > .cell
+      line-height: $line-height
+      width: 1 / 7 * 100%
+      display: flex
+      justify-content: center
+      align-items: center
+      &.formerMonth, &.laterMonth
+        color: #ccc
+      &.today
+        background: #fed32c
+        border-radius: 8px
+  .weekdays
+    > .cell
+      text-align: center
+      padding: .5em 0
+  .days
+    > .cell
+      min-height: $line-height * 3
+  .footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 16px 0
+    > div:first-child
+      margin-right: auto
+    > div:last-child
+      margin-left: auto

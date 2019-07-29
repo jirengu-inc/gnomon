@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1d1ca8-e347-4c99-a0ce-8575f90979a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calendar/Calendar.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar/Calendar.module.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Date2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Date2.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +124,7 @@
       <workItem from="1564303862809" duration="2476000" />
       <workItem from="1564323381098" duration="5582000" />
       <workItem from="1564360177202" duration="11486000" />
-      <workItem from="1564401693462" duration="5465000" />
+      <workItem from="1564401693462" duration="7234000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1564246781255</created>
@@ -158,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564406169007</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="接受 url 参数">
+      <created>1564407210831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564407210831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +185,7 @@
     <MESSAGE value="日历展示基本完成" />
     <MESSAGE value="展示选中的日期" />
     <MESSAGE value="展示每天的安排" />
-    <option name="LAST_COMMIT_MESSAGE" value="展示每天的安排" />
+    <MESSAGE value="接受 url 参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="接受 url 参数" />
   </component>
 </project>

@@ -8,9 +8,11 @@ import Date2 from '../lib/Date2';
 import queryString from 'query-string';
 
 
+const query = queryString.parse(window.location.search);
 const App: React.FC = () => {
   const [events, setEvents] = useState<CalendarEvent[]>([]);
-  const [date, setDate] = useState(new Date());
+  const {selected} = query;
+  const [date, setDate] = useState(selected ? new Date(selected.toString()) : new Date());
   const selectedEvents = () => {
     return events.filter((e) =>
       new Date2(e.start).isSameDayAs(date) ||
@@ -18,7 +20,6 @@ const App: React.FC = () => {
     );
   };
   useEffect(() => {
-    const query = queryString.parse(window.location.search);
     if (!query.eventsUrl) {return;}
     axios.get(query.eventsUrl.toString()).then((response) => {
       const data = y.safeLoad<CalendarEvent[]>(response.data);
@@ -28,6 +29,7 @@ const App: React.FC = () => {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.h1}>课程表</h1>
+      <p className={styles.p}>小圆点表示有课程</p>
       <Calendar events={events} value={date} onChange={setDate}/>
       <EventList title={`${new Date2(date).toString('M月d日')}的安排`} events={selectedEvents()}/>
     </div>

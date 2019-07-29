@@ -40,7 +40,7 @@ export default class Date2 {
           : date instanceof Date ? date
           : date instanceof Date2 ? date
             : new Date();
-    this.date = new Date(d.valueOf());
+    this.date = Number.isNaN(d.valueOf()) ? new Date() : new Date(d.valueOf());
   }
 
   add(n: number, time: TimeType) {

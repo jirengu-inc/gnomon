@@ -1,7 +1,8 @@
+$yellow: #fed32c
 .wrapper
   $line-height: 20px
   background: white
-  margin: 0 16px 16px
+  margin: 0 16px
   border-radius: 10px
   overflow: hidden
   color: #333
@@ -14,15 +15,36 @@
     flex-wrap: wrap
     > .cell
       line-height: $line-height
-      width: 1 / 7 * 100%
+      width: calc(1 / 7 * 100% - 2px)
+      margin: 1px
       display: flex
       justify-content: center
       align-items: center
+      position: relative
+      border: 1px solid transparent
       &.formerMonth, &.laterMonth
         color: #ccc
       &.today
-        background: #fed32c
+        background: $yellow
         border-radius: 8px
+      &.selected
+        border: 1px solid $yellow
+        border-radius: 8px
+      > .events
+        position: absolute
+        right: 4px
+        top: 4px
+        display: flex
+        align-items: center
+        justify-content: flex-end
+        > li
+          width: 4px
+          height: 4px
+          border-radius: 50%
+          margin: 0 1px
+          background: #3eb962
+      &.today > .events > li
+        background: white
   .weekdays
     > .cell
       text-align: center

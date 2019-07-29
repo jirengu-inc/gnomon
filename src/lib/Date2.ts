@@ -33,12 +33,13 @@ export default class Date2 {
     }
   }
 
-  constructor(date?: Date | number | Date2) {
+  constructor(date?: Date | number | Date2 | string) {
     const d =
-      typeof date === 'number' ? new Date(date)
-        : date instanceof Date ? date
-        : date instanceof Date2 ? date.toDate()
-          : new Date();
+      typeof date === 'number' ? new Date(date) :
+        typeof date === 'string' ? Date.parse(date)
+          : date instanceof Date ? date
+          : date instanceof Date2 ? date
+            : new Date();
     this.date = new Date(d.valueOf());
   }
 
@@ -195,6 +196,10 @@ export default class Date2 {
 
   toDate() {
     return this.clone.date;
+  }
+
+  valueOf() {
+    return this.date.valueOf();
   }
 
   /**

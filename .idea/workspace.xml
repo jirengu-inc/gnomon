@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1d1ca8-e347-4c99-a0ce-8575f90979a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/db/events.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/App.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calendar/Calendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Calendar/calendar.module.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Date2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.styl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/db/events.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/db/events.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendar/Calendar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar/Calendar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calendar/calendar.module.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calendar/calendar.module.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Date2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Date2.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +58,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.css" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="D:\Fang\GitHub\gnomon\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -139,7 +129,7 @@
       <workItem from="1564246111784" duration="10570000" />
       <workItem from="1564303862809" duration="2476000" />
       <workItem from="1564323381098" duration="5582000" />
-      <workItem from="1564360177202" duration="6108000" />
+      <workItem from="1564360177202" duration="10758000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1564246781255</created>
@@ -148,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564246781255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="日历展示基本完成">
+      <created>1564388680239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564388680239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +166,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="eject" />
-    <option name="LAST_COMMIT_MESSAGE" value="eject" />
+    <MESSAGE value="日历展示基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="日历展示基本完成" />
   </component>
 </project>

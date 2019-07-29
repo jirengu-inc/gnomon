@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1d1ca8-e347-4c99-a0ce-8575f90979a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/db/events-1.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/db/events-1.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +124,7 @@
       <workItem from="1564303862809" duration="2476000" />
       <workItem from="1564323381098" duration="5582000" />
       <workItem from="1564360177202" duration="11486000" />
-      <workItem from="1564401693462" duration="8067000" />
+      <workItem from="1564401693462" duration="8778000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1564246781255</created>

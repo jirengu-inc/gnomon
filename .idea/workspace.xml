@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1d1ca8-e347-4c99-a0ce-8575f90979a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5c1d1ca8-e347-4c99-a0ce-8575f90979a0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="F:/AndroidSDK" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FUI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Desktop/ts-advanced-types-demo-1" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -126,6 +123,7 @@
       <workItem from="1564323381098" duration="5582000" />
       <workItem from="1564360177202" duration="11486000" />
       <workItem from="1564401693462" duration="9347000" />
+      <workItem from="1564760412279" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="eject">
       <created>1564246781255</created>

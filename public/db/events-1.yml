@@ -1,30 +1,33 @@
-- id: 5
-  name: 实现简易版MVC
-  start: 2019-08-08T20:30:00.00+08:00
-  end: 2019-08-08T22:30:00.00+08:00
-  creator: 若愚
-- id: 4
-  name: git入门 - 本地仓库&远程仓库
-  start: 2019-08-09T20:30:00.00+08:00
-  end: 2019-08-09T22:30:00.00+08:00
-  creator: 方方
-- id: 3
-  name: git入门 - 环境变量&脚本
-  start: 2019-08-07T20:30:00.00+08:00
-  end: 2019-08-07T22:30:00.00+08:00
-  creator: 方方
-- id: 2
-  name: git入门 - 软件安装&文件相关命令行
-  start: 2019-08-05T20:30:00.00+08:00
-  end: 2019-08-05T22:30:00.00+08:00
-  creator: 方方
-- id: 1
-  name: 2020全栈体系课阶段一开班
-  start: 2019-08-03T20:30:00.00+08:00
-  end: 2019-08-03T22:30:00.00+08:00
-  urls:
-    - name: 视频链接
-      url: https://xiedaimala.com/tasks/ef1619eb-834d-42b3-853d-47accdc55e0e
-    - name: 文章链接
-      url: https://www.yuque.com/u29422/outc2h/mbez66
-  creator: 方方
+title: 前端体系课 - 课程表
+events:
+  # 注意缩进要对齐
+  - id: 5
+    name: 实现简易版MVC
+    start: 2019-08-08T20:30:00.00+08:00
+    end: 2019-08-08T22:30:00.00+08:00
+    creator: 若愚
+  - id: 4
+    name: git入门 - 本地仓库&远程仓库
+    start: 2019-08-09T20:30:00.00+08:00
+    end: 2019-08-09T22:30:00.00+08:00
+    creator: 方方
+  - id: 3
+    name: git入门 - 环境变量&脚本
+    start: 2019-08-07T20:30:00.00+08:00
+    end: 2019-08-07T22:30:00.00+08:00
+    creator: 方方
+  - id: 2
+    name: git入门 - 软件安装&文件相关命令行
+    start: 2019-08-05T20:30:00.00+08:00
+    end: 2019-08-05T22:30:00.00+08:00
+    creator: 方方
+  - id: 1
+    name: 2020全栈体系课阶段一开班
+    start: 2019-08-03T20:30:00.00+08:00
+    end: 2019-08-03T22:30:00.00+08:00
+    urls:
+      - name: 视频链接
+        url: https://xiedaimala.com/tasks/ef1619eb-834d-42b3-853d-47accdc55e0e
+      - name: 文章链接
+        url: https://www.yuque.com/u29422/outc2h/mbez66
+    creator: 方方

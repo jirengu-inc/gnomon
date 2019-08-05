@@ -10,6 +10,7 @@ interface Props {
 }
 
 const EventList: React.FC<Props> = ({events, title}) => {
+  console.log(events);
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.header}>{title}</h2>
@@ -20,8 +21,10 @@ const EventList: React.FC<Props> = ({events, title}) => {
             <div className={styles.name}>
               {e.name}
             </div>
-            {e.urls && <div className={styles.url}>
-              {e.urls.map(item => item.name)}
+            {e.urls && e.urls.length > 0 && <div className={styles.urls}>
+              {e.urls.map(item =>
+                <span className={styles.url}>{item.name || '链接'}</span>
+              )}
             </div>}
             <div className={styles.details}>
               <span className={styles.creator}>

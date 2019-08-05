@@ -12,7 +12,7 @@ export interface CalendarEvent {
   name: string;
   description: string;
   creator: string;
-  urls: { name: string; url: string; }[];
+  urls: { name?: string; url: string; }[];
   start: CalendarEventTime;
   end: CalendarEventTime;
   allDay: true;

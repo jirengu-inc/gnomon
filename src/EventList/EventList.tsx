@@ -23,7 +23,7 @@ const EventList: React.FC<Props> = ({events, title}) => {
             </div>
             {e.urls && e.urls.length > 0 && <div className={styles.urls}>
               {e.urls.map(item =>
-                <span className={styles.url}>{item.name || '链接'}</span>
+                <a href={item.url} className={styles.url}>{item.name || '链接'}</a>
               )}
             </div>}
             <div className={styles.details}>

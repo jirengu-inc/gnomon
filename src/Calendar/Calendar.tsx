@@ -12,7 +12,7 @@ export interface CalendarEvent {
   name: string;
   description: string;
   creator: string;
-  url: string;
+  urls: { name: string; url: string; }[];
   start: CalendarEventTime;
   end: CalendarEventTime;
   allDay: true;
@@ -31,8 +31,9 @@ const Calendar: React.FC<Props> = ({firstDayOfWeek = 1, events, value, onChange}
   const [currentTime, setCurrentTime] = useState(new Date2(value));
   const firstDayOfCurrentMonth = currentTime.day(1);
   const weekday = firstDayOfCurrentMonth.weekday();
+  const mustBePositive = (n: number) => n >= 0 ? n : n + 7;
   const firstDayOfCurrentView = firstDayOfCurrentMonth.day(
-    firstDayOfCurrentMonth.day() - (weekday - firstDayOfWeek));
+    firstDayOfCurrentMonth.day() - mustBePositive(weekday - firstDayOfWeek));
   const eventsHappenedOn = (date: Date2) => {
     return events.filter((e) =>
       new Date2(e.start).isSameDayAs(date) ||

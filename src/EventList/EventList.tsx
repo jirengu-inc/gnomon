@@ -20,6 +20,9 @@ const EventList: React.FC<Props> = ({events, title}) => {
             <div className={styles.name}>
               {e.name}
             </div>
+            {e.urls && <div className={styles.url}>
+              {e.urls.map(item => item.name)}
+            </div>}
             <div className={styles.details}>
               <span className={styles.creator}>
                 {e.creator}

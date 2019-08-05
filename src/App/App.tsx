@@ -28,10 +28,13 @@ const App: React.FC = () => {
   }, []);
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.h1}>课程表(建议收藏)</h1>
+      <h1 className={styles.h1}>课程表 - 建议收藏</h1>
       <p className={styles.p}>小圆点表示有课程</p>
       <Calendar events={events} value={date} onChange={setDate}/>
       <EventList title={`${new Date2(date).toString('M月d日')}的安排`} events={selectedEvents()}/>
+      <footer className={styles.footer}>本页面使用 React 构建，源代码托管于 &nbsp;
+        <a href="https://github.com/FrankFang/gnomon" target="_blank">FrankFang/gnomon</a>
+      </footer>
     </div>
   );
 };

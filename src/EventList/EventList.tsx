@@ -10,7 +10,6 @@ interface Props {
 }
 
 const EventList: React.FC<Props> = ({events, title}) => {
-  console.log(events);
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.header}>{title}</h2>

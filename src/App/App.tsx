@@ -26,7 +26,7 @@ const App: React.FC = () => {
   };
   useEffect(() => {
     if (!query.eventsUrl) {return;}
-    axios.get(query.eventsUrl.toString()).then((response) => {
+    axios.get(query.eventsUrl.toString() + `?_=${Math.random().toString()}`).then((response) => {
       const data = y.safeLoad<OpenEvents>(response.data);
       setEvents(data.events);
       if (data.title) {setTitle(data.title);}

@@ -21,12 +21,22 @@ events:
     start: 2019-08-05T20:30:00.00+08:00
     end: 2019-08-05T22:30:00.00+08:00
     creator: 方方
+  - id: 1.5
+    name: Windows 软件安装（录播）
+    start: 2019-08-05T14:30:00.00+08:00
+    end: 2019-08-05T16:30:00.00+08:00
+    creator: 方方
+    urls:
+      - name: 课程链接
+        url: https://xiedaimala.com/tasks/3722c995-fac6-444a-8d6e-6bfc8cf7cc1d
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-6-14-59-37.pdf
   - id: 1
     name: 2020全栈体系课阶段一开班
     start: 2019-08-03T20:30:00.00+08:00
     end: 2019-08-03T22:30:00.00+08:00
     urls:
-      - name: 视频链接
+      - name: 课程链接
         url: https://xiedaimala.com/tasks/ef1619eb-834d-42b3-853d-47accdc55e0e
       - name: 文章链接
         url: https://www.yuque.com/u29422/outc2h/mbez66

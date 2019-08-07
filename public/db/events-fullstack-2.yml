@@ -1,0 +1,13 @@
+title: 前端精进（后端方向） - 课程表
+events:
+  # 注意缩进要对齐
+  - id: 1
+    name: 第一课：课程介绍
+    start: 2019-08-06T20:30:00.00+08:00
+    end: 2019-08-06T22:30:00.00+08:00
+    creator: 方方
+    urls:
+      - url: https://xiedaimala.com/tasks/fc48a621-7ec1-4021-b89d-c97edeb60cfc
+        name: 录屏链接
+      - url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-7-10-44-3.pdf
+        name: 讲义下载

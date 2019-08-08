@@ -32,7 +32,7 @@ events:
     end: 2019-08-05T16:30:00.00+08:00
     creator: 方方
     urls:
-      - name: 课程链接
+      - name: 录屏链接
         url: https://xiedaimala.com/tasks/3722c995-fac6-444a-8d6e-6bfc8cf7cc1d
       - name: 讲义链接
         url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-6-14-59-37.pdf

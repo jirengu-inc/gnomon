@@ -6,6 +6,9 @@ events:
     start: 2019-08-09T20:30:00.00+08:00
     end: 2019-08-09T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接（未录完）
+        url: https://xiedaimala.com/tasks/4750e955-a081-480b-9a77-c109e75eba23
   - id: 5
     name: 【拓展课】实现简易版MVC
     start: 2019-08-08T20:30:00.00+08:00

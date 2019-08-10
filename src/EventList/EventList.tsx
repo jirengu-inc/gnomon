@@ -10,13 +10,14 @@ interface Props {
 }
 
 const EventList: React.FC<Props> = ({events, title}) => {
+  const sortedEvents = events.sort((e1, e2) => e1.start > e2.start ? 1 : -1);
   return (
     <div className={styles.wrapper}>
       <h2 className={styles.header}>{title}</h2>
-      {events.length === 0 ?
+      {sortedEvents.length === 0 ?
         <div className={styles.empty}>没有日程</div> :
         <ol className={styles.events}>
-          {events.map(e => <li key={e.id} className={styles.event}>
+          {sortedEvents.map(e => <li key={e.id} className={styles.event}>
             <div className={styles.name}>
               {e.name}
             </div>

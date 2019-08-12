@@ -19,6 +19,9 @@ events:
     start: 2019-08-08T20:30:00.00+08:00
     end: 2019-08-08T22:30:00.00+08:00
     creator: 若愚
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/3080790f-d967-405c-89f9-e7428637dfe8
   - id: 4
     name: 【Git入门】远程仓库 - GitHub
     start: 2019-08-09T20:30:00.00+08:00

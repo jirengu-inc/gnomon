@@ -56,7 +56,7 @@ const Calendar: React.FC<Props> = ({firstDayOfWeek = 1, events, value, onChange}
       <div className={cs(styles.cell, extraClass, selectedClass)}
            key={date.valueOf()}
            onClick={() => onClickCell(date)}>
-        {date.toString('d')}
+        {date.isSameDayAs(new Date()) ? '今' : date.toString('d')}
         {eventsOnToday.length > 0 &&
         <ol className={styles.events}>{
           eventsOnToday.map(e =>

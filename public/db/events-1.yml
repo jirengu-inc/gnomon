@@ -16,6 +16,11 @@ events:
     start: 2019-08-14T20:30:00.00+08:00
     end: 2019-08-14T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/b6c18d7b-d7b4-463f-960b-40d732127133
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-15-14-18-12.pdf
   - id: 7
     name: 【HTML入门】HTML 5 概论
     start: 2019-08-12T20:30:00.00+08:00

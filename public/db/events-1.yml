@@ -1,8 +1,38 @@
 title: 前端体系课 - 课程表
 events:
   # 注意缩进要对齐
+  - id: 16
+    name: 【CSS全解】CSS实践
+    start: 2019-08-23T22:30:00.00+08:00
+    end: 2019-08-23T23:30:00.00+08:00
+    creator: 方方
+  - id: 15
+    name: 【CSS全解】CSS动画
+    start: 2019-08-23T20:30:00.00+08:00
+    end: 2019-08-23T22:30:00.00+08:00
+    creator: 方方
+  - id: 14
+    name: 【CSS全解】CSS定位
+    start: 2019-08-21T17:30:00.00+08:00
+    end: 2019-08-21T18:30:00.00+08:00
+    creator: 方方
+  - id: 13
+    name: 【CSS全解】CSS布局
+    start: 2019-08-21T20:30:00.00+08:00
+    end: 2019-08-21T22:30:00.00+08:00
+    creator: 方方
+  - id: 12
+    name: 【CSS全解】CSS基础
+    start: 2019-08-19T20:30:00.00+08:00
+    end: 2019-08-19T22:30:00.00+08:00
+    creator: 方方
+  - id: 11
+    name: 【HTML全解】HTML实践
+    start: 2019-08-19T17:30:00.00+08:00
+    end: 2019-08-19T18:30:00.00+08:00
+    creator: 方方
   - id: 10
-    name: 【HTML入门】HTML重难点
+    name: 【HTML全解】HTML重难点
     start: 2019-08-16T20:30:00.00+08:00
     end: 2019-08-16T22:30:00.00+08:00
     creator: 方方
@@ -17,7 +47,7 @@ events:
     end: 2019-08-15T22:30:00.00+08:00
     creator: 若愚
   - id: 8
-    name: 【HTML入门】HTML标签入门
+    name: 【HTML全解】HTML标签入门
     start: 2019-08-14T20:30:00.00+08:00
     end: 2019-08-14T22:30:00.00+08:00
     creator: 方方
@@ -27,7 +57,7 @@ events:
       - name: 讲义链接
         url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-15-14-18-12.pdf
   - id: 7
-    name: 【HTML入门】HTML 5 概论
+    name: 【HTML全解】HTML 5 概论
     start: 2019-08-12T20:30:00.00+08:00
     end: 2019-08-12T22:30:00.00+08:00
     creator: 方方

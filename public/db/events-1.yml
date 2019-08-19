@@ -51,7 +51,7 @@ events:
     start: 2019-08-15T20:30:00.00+08:00
     end: 2019-08-15T22:30:00.00+08:00
     creator: 若愚
-     urls:
+    urls:
       - name: 录屏链接
         url: https://xiedaimala.com/tasks/6ac9cfa1-6fa3-4381-afab-fef1a9b36810
   - id: 8

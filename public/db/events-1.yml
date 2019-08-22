@@ -38,8 +38,8 @@ events:
         url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-20-15-53-11.pdf
   - id: 11
     name: 【HTML全解】HTML实践（录播）
-    start: 2019-08-20T17:30:00.00+08:00
-    end: 2019-08-20T18:30:00.00+08:00
+    start: 2019-08-22T17:30:00.00+08:00
+    end: 2019-08-22T18:30:00.00+08:00
     creator: 方方
     urls:
       - name: 录屏链接

@@ -41,6 +41,11 @@ events:
     start: 2019-08-20T17:30:00.00+08:00
     end: 2019-08-20T18:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/27d64a50-06f0-4bff-9c98-e0e2d860ea67
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-22-17-10-5.pdf
   - id: 10
     name: 【HTML全解】HTML重难点
     start: 2019-08-16T20:30:00.00+08:00

@@ -1,11 +1,26 @@
 title: 前端精进（后端方向） - 课程表
 events:
   # 注意缩进要对齐
+  - id: 4
+    name: JS 专精 - 手写 bind
+    start: 2019-08-26T13:30:00.00+08:00
+    end: 2019-08-26T14:30:00.00+08:00
+    creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/185d9856-0425-41f9-b1a9-078d7d65872a
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-26-11-59-29.pdf
   - id: 3
     name: JS 专精 - 手写 EventHub
     start: 2019-08-20T20:30:00.00+08:00
     end: 2019-08-20T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/4cd3b3af-a9b7-4e3d-8fc8-798858ed0baa
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-21-10-39-21.pdf
   - id: 2
     name: JS 专精 - 函数全解
     start: 2019-08-13T20:30:00.00+08:00

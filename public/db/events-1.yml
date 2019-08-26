@@ -13,19 +13,24 @@ events:
     creator: 方方
   - id: 15
     name: 【CSS全解】CSS动画（录播）
-    start: 2019-08-23T20:30:00.00+08:00
-    end: 2019-08-23T22:30:00.00+08:00
-    creator: 方方
-  - id: 14
-    name: 【CSS全解】CSS定位
     start: 2019-08-23T17:30:00.00+08:00
     end: 2019-08-23T18:30:00.00+08:00
     creator: 方方
+  - id: 14
+    name: 【CSS全解】CSS定位
+    start: 2019-08-23T20:30:00.00+08:00
+    end: 2019-08-23T22:30:00.00+08:00
+    creator: 方方
   - id: 13
-    name: 【CSS全解】CSS布局
+    name: 【CSS全解】CSS布局（上）
     start: 2019-08-21T20:30:00.00+08:00
     end: 2019-08-21T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/b1182031-4df7-4071-8305-19023a77caa3
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-22-19-43-25.pdf
   - id: 12
     name: 【CSS全解】CSS基础
     start: 2019-08-19T20:30:00.00+08:00

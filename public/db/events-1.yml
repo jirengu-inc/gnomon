@@ -1,6 +1,19 @@
 title: 前端体系课 - 课程表
 events:
   # 注意缩进要对齐
+  - id: 21
+    name: 【HTTP全解】部署 Node.js 应用
+    start: 2019-08-29T20:30:00.00+08:00
+    end: 2019-08-29T22:30:00.00+08:00
+  - id: 20
+    name: 【HTTP全解】Node.js Server 入门
+    start: 2019-08-28T20:30:00.00+08:00
+    end: 2019-08-28T22:30:00.00+08:00
+  - id: 19
+    name: 【HTTP全解】请求与相应
+    start: 2019-08-26T20:30:00.00+08:00
+    end: 2019-08-26T22:30:00.00+08:00
+    creator: 方方
   - id: 18
     name: 【拓展课】前端面试知识点专项突破——HTML、CSS方向
     start: 2019-08-29T20:30:00.00+08:00
@@ -29,6 +42,11 @@ events:
     start: 2019-08-23T20:30:00.00+08:00
     end: 2019-08-23T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/9680d9cb-62b1-4955-be8c-fe41e0269e3a
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-8-24-14-5-4.pdf
   - id: 13
     name: 【CSS全解】CSS布局（上）
     start: 2019-08-21T20:30:00.00+08:00

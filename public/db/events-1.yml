@@ -1,6 +1,31 @@
 title: 前端体系课 - 课程表
 events:
   # 注意缩进要对齐
+  - id: 26
+    name: 【JS全解】Canvas 实践 - 画图板
+    start: 2019-09-06T20:30:00.00+08:00
+    end: 2019-09-06T22:30:00.00+08:00
+    creator: 方方
+  - id: 25
+    name: 【JS全解】JS对象与核心API
+    start: 2019-09-08T12:30:00.00+08:00
+    end: 2019-09-08T14:30:00.00+08:00
+    creator: 方方
+  - id: 24
+    name: 【JS全解】内存图与JS世界（精品课）
+    start: 2019-09-04T20:30:00.00+08:00
+    end: 2019-09-04T22:30:00.00+08:00
+    creator: 方方
+  - id: 23
+    name: 【JS全解】JS数据类型与运算符（录播）
+    start: 2019-09-07T12:30:00.00+08:00
+    end: 2019-09-07T14:30:00.00+08:00
+    creator: 方方
+  - id: 22
+    name: 【JS全解】JS概览
+    start: 2019-09-02T20:30:00.00+08:00
+    end: 2019-09-02T22:30:00.00+08:00
+    creator: 方方
   - id: 21
     name: 【拓展课】CSS
     start: 2019-09-05T20:30:00.00+08:00
@@ -10,6 +35,7 @@ events:
     name: 【HTTP全解】请求和响应 & Node.js Server
     start: 2019-08-28T20:30:00.00+08:00
     end: 2019-08-28T22:30:00.00+08:00
+    creator: 方方
     urls:
       - name: 录屏链接
         url: https://xiedaimala.com/tasks/fbf9946a-16bf-4fee-9e58-9d6bf3ad4c18

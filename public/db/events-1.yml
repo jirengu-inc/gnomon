@@ -21,21 +21,41 @@ events:
     start: 2019-09-09T20:30:00.00+08:00
     end: 2019-09-09T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/83068d65-a481-4d23-8a76-f9c572e77fc3
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-10-14-3-29.pdf
   - id: 26
     name: 【JS全解】Canvas 实践 - 画图板
     start: 2019-09-06T20:30:00.00+08:00
     end: 2019-09-06T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/76fb32ad-4a1b-4efe-8a84-c80c4ad1435e
+      - name: 代码链接
+        url: https://github.com/FrankFang/canvas-demo-1
   - id: 24
     name: 【JS全解】内存图与JS世界（精品课）
     start: 2019-09-04T20:30:00.00+08:00
     end: 2019-09-04T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/0ddb078b-f344-4341-99f2-84502a62d94c
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-6-15-40-27.pdf
   - id: 22
     name: 【JS全解】JS概览
     start: 2019-09-02T20:30:00.00+08:00
     end: 2019-09-02T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/b771a128-3fc9-4706-8ae4-5f92b431b2d4
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-3-11-15-5.pdf
   - id: 21
     name: 【拓展课】CSS
     start: 2019-09-05T20:30:00.00+08:00

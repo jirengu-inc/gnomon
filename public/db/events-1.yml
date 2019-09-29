@@ -12,37 +12,48 @@ events:
     end: 2019-09-23T22:30:00.00+08:00
     creator: 方方
   - id: 31
-    name: 【JS全解】JS 函数
+    name: 【JS全解】JS 数组
     start: 2019-09-20T20:30:00.00+08:00
     end: 2019-09-20T22:30:00.00+08:00
     creator: 方方
+
   - id: 30
     name: 【JS全解】JS 对象分类
     start: 2019-09-18T20:30:00.00+08:00
     end: 2019-09-18T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/6d5737b1-a755-4c3b-acf0-001e347507f7
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-19-10-54-23.pdf
   - id: 29
     name: 【JS全解】JS 对象
     start: 2019-09-16T20:30:00.00+08:00
     end: 2019-09-16T22:30:00.00+08:00
     creator: 方方
-  - id: 25
-    name: 【JS全解】JS对象与核心API（中秋改录播）
-    start: 2019-09-13T20:30:00.00+08:00
-    end: 2019-09-13T22:30:00.00+08:00
-    creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/5d16085f-ad84-40d9-8d5c-4926a26db4c5
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-17-0-56-36.pdf
   - id: 23
-    name: 【JS全解】JS数据类型与运算符
+    name: 【JS全解】JS数据类型
     start: 2019-09-11T20:30:00.00+08:00
     end: 2019-09-11T22:30:00.00+08:00
     creator: 方方
+    urls:
+      - name: 录屏链接
+        url: https://xiedaimala.com/tasks/6d7f7904-7d42-4a22-8f12-72ef90ea370c
+      - name: 讲义链接
+        url: https://static.xiedaimala.com/xdml/file/3ac7c224-c23d-491f-84b5-4fabfbeab9b8/2019-9-12-11-52-43.pdf
   - id: 28
     name: 【拓展课】CSS面试专题
     start: 2019-09-11T20:30:00.00+08:00
     end: 2019-09-11T22:30:00.00+08:00
     creator: 若愚
   - id: 27
-    name: JavaScript 语法
+    name: JS 语法
     start: 2019-09-09T20:30:00.00+08:00
     end: 2019-09-09T22:30:00.00+08:00
     creator: 方方

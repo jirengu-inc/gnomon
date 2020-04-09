@@ -1,6 +1,16 @@
 title: Java高级班 - 课程表
 events:
   # 注意缩进要对齐
+  - id: 44
+    name: " 在Windows上调试OpenJDK与向OpenJDK贡献代码"
+    start: 2020-04-10T20:30:00.00+08:00
+    end: 2020-04-10T22:30:00.00+08:00
+    creator: 彰德
+  - id: 43
+    name: " 自行编译调试OpenJDK-UNIX"
+    start: 2020-04-09T20:30:00.00+08:00
+    end: 2020-04-09T22:30:00.00+08:00
+    creator: 彰德
   - id: 42
     name: "数据库高级实战（下）"
     start: 2020-04-03T20:30:00.00+08:00
